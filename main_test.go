@@ -18,7 +18,7 @@ func Test_add(t *testing.T) {
 				10,
 				20,
 			},
-			40,
+			50,
 		},
 	}
 	for _, tt := range tests {
