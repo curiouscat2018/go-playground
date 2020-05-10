@@ -11,7 +11,6 @@ if [[ $? != 0 ]]; then
     exit 1
 fi
 
-go install golang.org/x/tools/cmd/goimports
 goimports -l .
 if [[ $? != 0 ]]; then
     exit 1
