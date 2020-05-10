@@ -7,6 +7,7 @@ func Test_add(t *testing.T) {
 		a int
 		b int
 	}
+
 	tests := []struct {
 		name string
 		args args
