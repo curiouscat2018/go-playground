@@ -7,6 +7,7 @@ func Test_add(t *testing.T) {
 		a int
 		b int
 	}
+
 	tests := []struct {
 		name string
 		args args
@@ -18,7 +19,7 @@ func Test_add(t *testing.T) {
 				10,
 				20,
 			},
-			40,
+			30,
 		},
 	}
 	for _, tt := range tests {
